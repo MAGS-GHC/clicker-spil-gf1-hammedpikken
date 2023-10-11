@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CookieClicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="FutureCode/upgrade.js"></script>
+    <script src="FutureCode/AutoIncrement.js"> </script>
+    <div class="flex-container">
+    <div id="MainWindow" class="flex-child">
+        <div id="counter">
+            <p style="text-align: center; font-size: 300%; "> Du har <strong><span id="Count">0</span></strong> Cookies 🍪 </p>
+        </div>
+        
+        <div style="text-align:center;" >
+        <img src="https://i.pinimg.com/originals/b8/f3/c4/b8f3c40b243899e9f79145c6e35a4992.gif" id="loading" onclick="Increment()"/>
+        </div>   
+    </div>
+    <div id="Upgrades" class="flex-child">
+        <div style="text-align: center;">
+            <button style="font-size: 200%;" onclick=UpgradeEnhanceClick()> Upgrade 1 </button>
+        </div> <br>
+        <div style="text-align: center;">
+            <button style="font-size: 200%;"> Upgrade 2 </button>
+        </div> <br>
+    </div>   
+    </div>
+</body>
+</html>
